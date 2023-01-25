@@ -1,5 +1,13 @@
+
+
 body {
   
-    background-color: rgb(156, 156, 165);
+    background-color: rgb(15, 15, 26);
     color: #000000;
-  }
+}
+
+.jumbotron {
+	background-image: url("../img/header.png");
+	background-size: 100%;
+    text-align: center;   
+}
