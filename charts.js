@@ -105,7 +105,7 @@ function buildCharts(sample) {
       marker: {
         size: sample_values,
         color: otu_ids,
-        colorscale: 'Earth'
+        colorscale: 'Icefire'
       }
     }];
     // Deliverable 2: 2. Create the layout for the bubble chart.
@@ -136,7 +136,8 @@ function buildCharts(sample) {
 				mode: "gauge+number",
 				gauge: {
 					axis: { range: [null, 10] },
-					steps: [
+					bar: { color: "black"},
+          steps: [
 						{ range: [0, 2], color: 'red' },
 						{ range: [2, 4], color: 'orange' },
 						{ range: [4, 6], color: 'yellow' },
