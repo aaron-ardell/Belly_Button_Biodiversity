@@ -98,7 +98,7 @@ function buildCharts(sample) {
     };
 
     // Deliverable 1: 10. Use Plotly to plot the data with the layout. 
-    Plotly.newPlot("bar", barData, barLayout);
+    Plotly.newPlot('bar', barData, barLayout);
 
     // Deliverable 2: BUBBLE CHART
 
@@ -127,7 +127,7 @@ function buildCharts(sample) {
     // Deliverable 3: GAUGE CHART
 
     // Deliverable 3: 1. Create a variable that filters the metadata array for the object with the desired sample number.
-    var filteredMeta = metadata.filter(metaObj => metaObj.id == sample);
+    var filteredMeta = metaData.filter(metaObj => metaObj.id == sample);
 
     // Deliverable 3: 2. Create a variable that holds the first sample in the metadata array.
     var firstMeta = filteredMeta[0];
